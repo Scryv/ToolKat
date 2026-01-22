@@ -6,10 +6,12 @@ It provides system info, log analysis, and a user management helper with built-i
 > Some features require **root privileges** and directly modify system users. Use responsibly.
 
 ---
-
+## Commands
+Here are the commands u can use with it
+* Base info: pacman -S fastfetch`
 ## Features
 
-### Base System Info (--b)
+### Base System Info `--b`
 Quick snapshot of your system:
 - Logged-in user
 - Linux distribution
@@ -18,16 +20,21 @@ Quick snapshot of your system:
 - Disk usage
 - System uptime
 
-### Log Analyzer (--la)
+### Log Analyzer `--la`
 Searches `/var/log/` for common failure indicators:
 - `error`
 - `failed`
 - `exception`
-- `fatal`
+- `fatal` <br />
 
-Great for quick troubleshooting.
 
-### User Management Helper (--umh)
-Create, delete, lock, unlock, and list users with automatic logging.
 
+### User Management Helper `--umh`
+Create, delete, lock, unlock, and list users with automatic logging. <br />
+- `--uhm create "user"` <br />
+- `--uhm delete "user"` <br />
+- `--uhm lock "user"` <br />
+- `--uhm unlock "user"` <br />
+- `--uhm list` <br />
+- `--uhm create "user"` <br /> <br />
 Actions are logged to: /var/log/toolkat.log

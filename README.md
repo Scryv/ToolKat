@@ -18,7 +18,7 @@ Quick snapshot of your system:
 - Disk usage
 - System uptime
 
-### 🔍 Log Analyzer (--la)
+### Log Analyzer (--la)
 Searches `/var/log/` for common failure indicators:
 - `error`
 - `failed`

@@ -9,6 +9,7 @@ It provides system info, log analysis, and a user management helper with built-i
 ## Features
 ### Base System Info `--b`
 <img src="https://github.com/Scryv/ToolKat/blob/main/pictures/1.png">
+
 Quick snapshot of your system:
 - Logged-in user
 - Linux distribution

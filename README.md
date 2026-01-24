@@ -20,6 +20,7 @@ Quick snapshot of your system:
 
 ### User Management Helper `--umh`
 Create, delete, lock, unlock, and list users with automatic logging. <br />
+**be sure to use `sudo` with these commands**
 - `--uhm create "user"` <br />
 - `--uhm delete "user"` <br />
 - `--uhm lock "user"` <br />

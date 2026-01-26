@@ -162,11 +162,11 @@ ${yellow}
 
 --b Base info
 --la Log analyzer
---umh User management helper
-  create to create User(req root)
-  delete to delete User(req root)
+--umh User management helper(req root)
+  create to create User
+  delete to delete User
   lock to lock User(req root)
-  unlock to unlock User(req root)
+  unlock to unlock User
   list   to list all Users
     Username (see if user exists)
 

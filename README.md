@@ -133,4 +133,40 @@ Basic:
 
 --history Show command history
 
+## example commands
+
+Examples:
+
+  Network Testing:
+  
+    toolkat.sh --net test                     Test connectivity
+    toolkat.sh --net dns                     Check DNS configuration
+    toolkat.sh --net latency                 test latency to common hosts
+    toolkat.sh --net wireless                View wireless networks
+    toolkat.sh --net bandwidth               Monitor bandwidth usage
+    
+
+
+    
+  DNS Management:
+  
+    sudo toolkat.sh --dns show               Show DNS configuration
+    sudo toolkat.sh --dns set cloudflare      Switch to Cloudflare DNS
+    sudo toolkat.sh --dns benchmark           Benchmark DNS servers
+    sudo toolkat.sh --dns flush               Flush DNS cache
+    
+  System Management:
+  
+    toolkat.sh --health                     System health check
+    sudo toolkat.sh --clean all             Full system cleanup
+    toolkat.sh --perf cpu                   CPU performance details
+    sudo toolkat.sh --umh create john       Create user 'john'
+    
+  Advanced Network:
+  
+    sudo toolkat.sh --net packets eth0        Capture packets
+    toolkat.sh --net firewall                 Check firewall status
+    toolkat.sh --net routes                   View routing table
+
+
 

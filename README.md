@@ -1,7 +1,7 @@
 # ToolKat
 ToolKat is a Bash-based system utility script that bundles common Linux admin tasks into a single CLI tool.
 It provides system info, log analysis, and a user management helper with built-in logging.
-
+I licensed it under agplv3 as it is a nice tool which deserves the chance not to be exploited by corpos.
 Some features require root privileges and directly modify system users. Use responsibly.
 
 ## commands
